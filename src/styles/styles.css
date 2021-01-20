@@ -411,3 +411,48 @@ h1 {
   justify-content: center;
   margin-top: 32px;
 }
+
+.footer__sign a {
+  text-decoration: none;
+  background-color: rebeccapurple;
+  color: #fff;
+}
+
+.error__page {
+  display: grid;
+  place-items: center;
+  background: #fff;
+  text-align: center;
+}
+.error__page h1 {
+  text-transform: uppercase;
+  color: red;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  text-transform: uppercase;
+  background:lightgreen;
+  color: #fff;
+  padding: 0.375rem 0.75rem;
+  letter-spacing: 0.2rem;
+  display: inline-block;
+  font-weight: 700;
+  -webkit-transition:  all 0.3s linear;
+  transition:  all 0.3s linear;
+  font-size: 0.875rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+}
+.btn:hover {
+  color: lightgreen;
+  background: #fff;
+}
+
+.error__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

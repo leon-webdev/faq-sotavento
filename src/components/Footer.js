@@ -22,7 +22,7 @@ const Footer = () => {
           <li>
             Hecho con <span style={{color: "red"}}>♥</span> por
             <a href="https://instagram.com/leon_webdev/" target="_blank" rel="noreferrer">
-              León
+            &nbsp;León
             </a>
           </li>
         </ul>
