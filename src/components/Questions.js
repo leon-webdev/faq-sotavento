@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'gatsby'
 
 const Questions = () => {
     return (
@@ -6,17 +7,17 @@ const Questions = () => {
             <ul id="preguntas" className="question__wrapper">
             <li className="question">
               ↳
-              <a href="#pregunta1">¿Pregunta 1?</a>
+              <Link to="#pregunta1">¿Pregunta 1?</Link>
             </li>
 
             <li className="question">
               ↳
-              <a href="#pregunta2">¿Pregunta 2?</a>
+              <Link to="#pregunta2">¿Pregunta 2?</Link>
             </li>
 
             <li className="question">
               ↳
-              <a href="#pregunta3">¿Pregunta 3?</a>
+              <Link to="#pregunta3">¿Pregunta 3?</Link>
             </li>
           </ul>
 
@@ -27,9 +28,7 @@ const Questions = () => {
               </h2>
 
               <p className="answer__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nihil laboriosam, porro facere dolorum non quae aspernatur odio harum qui!</p>
-
-              <a className="top__arrow" href="#preguntas">▲</a>
-
+              <Link className="top__arrow" to="#preguntas">▲</Link>
             </div>
           </div>
 
@@ -39,7 +38,7 @@ const Questions = () => {
               <p className="answer__p">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate eum voluptas corrupti consequuntur itaque excepturi possimus voluptates mollitia eveniet?
               </p>
-              <a className="top__arrow" href="#preguntas">▲</a>
+              <Link className="top__arrow" to="#preguntas">▲</Link>
             </div>
           </div>
 
@@ -49,7 +48,7 @@ const Questions = () => {
               <p className="answer__p">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat aspernatur consequatur expedita nostrum omnis rerum tempora voluptatum odit amet a.
               </p>
-              <a className="top__arrow" href="#preguntas">▲</a>
+              <Link className="top__arrow" to="#preguntas">▲</Link>
             </div>
           </div>
         </>

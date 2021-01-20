@@ -416,6 +416,16 @@ h1 {
   text-decoration: none;
   background-color: rebeccapurple;
   color: #fff;
+  border-radius: 0.25rem;
+  padding: 5px;
+}
+
+.footer__sign a:hover {
+  text-decoration: none;
+  background-color: lightgray;
+  color: rebeccapurple;
+  border-radius: 0.25rem;
+  padding: 5px;
 }
 
 .error__page {

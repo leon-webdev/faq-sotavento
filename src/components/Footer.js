@@ -21,8 +21,8 @@ const Footer = () => {
         <ul className="footer__sign">
           <li>
             Hecho con <span style={{color: "red"}}>♥</span> por
-            <a href="https://instagram.com/leon_webdev/" target="_blank" rel="noreferrer">
-            &nbsp;León
+            <a href="https://instagram.com/leon_webdev/" target="_blank" rel="noreferrer" style={{marginLeft: "5px"}}>
+            León
             </a>
           </li>
         </ul>
