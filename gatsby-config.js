@@ -13,5 +13,7 @@ module.exports = {
     // image: '/twitter-img.png',
     siteUrl: 'https://faq-sotavento.netlify.app',
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 }
