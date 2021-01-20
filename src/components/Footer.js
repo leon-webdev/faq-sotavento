@@ -4,11 +4,6 @@ const Footer = () => {
   return (
     <>
       <footer className="footer">
-        <img
-          alt="Magenta and blue patterned design"
-          src="/assets/adorno3.png"
-          className="adorno__3"
-        />
 
         <p className="footer__p">
           Este sitio web es de uso exclusivo de los futuros propietarios del
