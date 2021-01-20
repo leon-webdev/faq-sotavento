@@ -1,5 +1,4 @@
-/*! CSS Used from: Embedded */
-.css-1jh7juy {
+.wrapper {
   box-sizing: border-box;
   min-width: 0;
   min-height: 100vh;
@@ -16,16 +15,11 @@
   font-size: 18px;
   line-height: 1.45;
 }
-/*! CSS Used from: Embedded */
-.css-qwmpuq {
+
+.header {
   box-sizing: border-box;
   min-width: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   background-color: #fff;
-  color: #111;
   font-weight: 700;
   margin: 0 auto;
   max-width: inherit;
@@ -35,158 +29,16 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
   padding: 10px;
   color: rebeccapurple;
 }
-.css-qwmpuq a {
+.header a {
   color: inherit;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
-/*! CSS Used from: Embedded */
-.css-l5jsv5 {
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-  z-index: 2;
-}
-/*! CSS Used from: Embedded */
-.css-u4p24i {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-/*! CSS Used from: Embedded */
-.css-1gnc16l {
-  height: 25px;
-  margin-right: 8px;
-}
-/*! CSS Used from: Embedded */
-.css-1lka4tg {
-  color: #111;
-  margin-right: 4px;
-  display: none;
-}
-@media screen and (min-width: 750px) {
-  .css-1lka4tg {
-    display: inline;
-  }
-}
-/*! CSS Used from: Embedded */
-.css-70qvj9 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-/*! CSS Used from: Embedded */
-.css-1e94fx4 {
-  border-top: none;
-  border-color: #efefef;
-  list-style: none;
-  padding: 0;
-  margin-top: 16px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  list-style: none;
-}
-.css-1e94fx4 * + * {
-  margin-left: 32px;
-}
-/*! CSS Used from: Embedded */
-.css-1vepne2 {
-  font-weight: 400;
-  display: none;
-}
-@media screen and (min-width: 750px) {
-  .css-1vepne2 {
-    display: list-item;
-  }
-}
-/*! CSS Used from: Embedded */
-.css-a7f6kq {
-  height: 24px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: none;
-  border: 0;
-  padding: 0;
-  margin-left: 16px;
-  position: relative;
-  cursor: pointer;
-  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-@media screen and (min-width: 750px) {
-  .css-a7f6kq {
-    display: none;
-  }
-}
-/*! CSS Used from: Embedded */
-.css-hm1gqp {
-  width: 24px;
-  height: 3px;
-  margin: 10px 0;
-  position: relative;
-  z-index: 2;
-  border-radius: 4px;
-  background-color: rebeccapurple;
-  -webkit-transition: all 250ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  transition: all 250ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-.css-hm1gqp:before {
-  content: " ";
-  top: -7px;
-  width: 20px;
-  right: 0;
-  background-color: rebeccapurple;
-  border-radius: 4px;
-  height: 3px;
-  position: absolute;
-  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.css-hm1gqp:after {
-  content: " ";
-  top: 7px;
-  width: 16px;
-  right: 0;
-  background-color: rebeccapurple;
-  border-radius: 4px;
-  height: 3px;
-  position: absolute;
-  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-/*! CSS Used from: Embedded */
-.css-759nuu {
+
+.main {
   box-sizing: border-box;
   min-width: 0;
   -webkit-flex: 1 1 auto;
@@ -196,8 +48,8 @@
   max-width: 650px;
   width: 90vw;
 }
-/*! CSS Used from: Embedded */
-.css-10qzsxd {
+
+.submain {
   box-sizing: border-box;
   min-width: 0;
   width: 100%;
@@ -207,8 +59,8 @@
   margin-right: auto;
   padding: 16px;
 }
-/*! CSS Used from: Embedded */
-.css-an2yfs {
+
+.wrapper__img {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -216,8 +68,26 @@
   margin: 0 auto;
   width: 360px;
 }
-/*! CSS Used from: Embedded */
-.css-gbk9w0 {
+
+.hero__img {
+  height: 100%;
+  left: 0px;
+  object-fit: cover;
+  object-position: center center;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  transition: opacity 500ms ease 0s;
+  width: 100%;
+}
+
+@media screen and (min-width: 350px) {
+  .hero__img {
+    height: 60%;
+  }
+}
+
+h1 {
   color: #111;
   font-size: 36px;
   font-weight: 700;
@@ -226,8 +96,8 @@
   margin-top: 32px;
   text-align: center;
 }
-/*! CSS Used from: Embedded */
-.css-1ukxsgt {
+
+.p__principal {
   color: #232129;
   margin: 0;
   margin-top: 16px;
@@ -236,8 +106,8 @@
   color: #635e69;
   font-size: 22px;
 }
-/*! CSS Used from: Embedded */
-.css-17772hy {
+
+.arrow__down {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -249,32 +119,30 @@
   margin-top: 32px;
   margin-bottom: 32px;
 }
-/*! CSS Used from: Embedded */
-.css-1ehaigh {
-  color: #d9bae8;
-}
-/*! CSS Used from: Embedded */
-.css-utyes1 {
+
+.question__wrapper {
   border-top: none;
   border-color: #efefef;
   list-style: none;
   padding: 0;
   margin-top: 16px;
 }
-/*! CSS Used from: Embedded */
-.css-10l3hxu {
+
+.question {
   border-bottom: none;
   border-color: #ddd;
   padding: 0;
   margin-top: 8px;
   color: #232129;
 }
-.css-10l3hxu:hover {
+
+.question:focus-within,
+.question:hover {
   background-color: transparent;
   cursor: primary;
 }
-/*! CSS Used from: Embedded */
-.css-1icsuyx {
+
+.answer__1 {
   position: relative;
   min-height: 100px;
   margin-top: 128px;
@@ -282,12 +150,14 @@
   padding: 32px;
   background-color: #fcfaff;
 }
+
 @media screen and (min-width: 750px) {
-  .css-1icsuyx {
+  .answer__1 {
     padding: 64px;
   }
 }
-.css-1icsuyx::before {
+
+.answer__1::before {
   background-image: linear-gradient(
     45deg,
     #b17acc 16.67%,
@@ -309,7 +179,8 @@
   content: "";
   background-size: 5px 5px;
 }
-.css-1icsuyx::after {
+
+.answer__1::after {
   left: 0;
   -webkit-transform: rotate(135deg) translate(21px, -3px);
   -ms-transform: rotate(135deg) translate(21px, -3px);
@@ -321,40 +192,35 @@
   content: "";
   bottom: 0;
 }
-.css-1icsuyx h2:first-of-type {
+
+.answer__1 h2:first-of-type {
   margin-top: 0;
 }
-/*! CSS Used from: Embedded */
-.css-etd137 {
+
+.top__arrow {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.answer__h2 {
   margin: 0;
   margin-top: 64px;
 }
-/*! CSS Used from: Embedded */
-.css-16rl8j0 {
+
+.answer__p {
   color: #232129;
   margin: 0;
   margin-top: 16px;
 }
-/*! CSS Used from: Embedded */
-.css-n085mf {
-  padding-left: 16px;
-}
-/*! CSS Used from: Embedded */
-.css-1nu2fhr {
-  display: inline-block;
-  background-color: #232129;
-  border: 1px solid;
-  border-color: #ddd;
-  border-radius: 4px;
-  font-size: 16px;
-  line-height: 1.1;
-  padding: 4px;
-  width: 100%;
-  overflow-x: auto;
-  color: #efefef;
-}
-/*! CSS Used from: Embedded */
-.css-1gqdyqg {
+
+.answer__2 {
   position: relative;
   min-height: 100px;
   margin-top: 128px;
@@ -362,12 +228,14 @@
   padding: 32px;
   background-color: #fffcf7;
 }
+
 @media screen and (min-width: 750px) {
-  .css-1gqdyqg {
+  .answer__2 {
     padding: 64px;
   }
 }
-.css-1gqdyqg::before {
+
+.answer__2::before {
   background-image: linear-gradient(
     -45deg,
     #ffd280 16.67%,
@@ -389,7 +257,8 @@
   content: "";
   background-size: 5px 5px;
 }
-.css-1gqdyqg::after {
+
+.answer__2::after {
   right: 0;
   -webkit-transform: rotate(-135deg) translate(-21px, -3px);
   -ms-transform: rotate(-135deg) translate(-21px, -3px);
@@ -401,11 +270,12 @@
   content: "";
   bottom: 0;
 }
-.css-1gqdyqg h2:first-of-type {
+
+.answer__2 h2:first-of-type {
   margin-top: 0;
 }
-/*! CSS Used from: Embedded */
-.css-1v8kwvb {
+
+.answer__3 {
   position: relative;
   min-height: 100px;
   margin-top: 128px;
@@ -413,12 +283,14 @@
   padding: 32px;
   background-color: #f5fcff;
 }
+
 @media screen and (min-width: 750px) {
-  .css-1v8kwvb {
+  .answer__3 {
     padding: 64px;
   }
 }
-.css-1v8kwvb::before {
+
+.answer__3::before {
   background-image: linear-gradient(
     45deg,
     #90cdf9 16.67%,
@@ -440,7 +312,8 @@
   content: "";
   background-size: 5px 5px;
 }
-.css-1v8kwvb::after {
+
+.answer__3::after {
   left: 0;
   -webkit-transform: rotate(135deg) translate(21px, -3px);
   -ms-transform: rotate(135deg) translate(21px, -3px);
@@ -452,11 +325,12 @@
   content: "";
   bottom: 0;
 }
-.css-1v8kwvb h2:first-of-type {
+
+.answer__3 h2:first-of-type {
   margin-top: 0;
 }
-/*! CSS Used from: Embedded */
-.css-mlesz9 {
+
+.adorno__2 {
   position: absolute;
   top: 625px;
   left: -35px;
@@ -465,15 +339,16 @@
   z-index: -1;
   opacity: 0.3;
 }
+
 @media screen and (min-width: 750px) {
-  .css-mlesz9 {
+  .adorno__2 {
     left: 0;
     height: 50%;
     opacity: 1;
   }
 }
-/*! CSS Used from: Embedded */
-.css-gg771i {
+
+.adorno__1 {
   position: absolute;
   top: 200px;
   right: 0;
@@ -483,25 +358,25 @@
   opacity: 0.5;
 }
 @media screen and (min-width: 750px) {
-  .css-gg771i {
+  .adorno__1 {
     top: 75px;
     height: 50%;
     opacity: 1;
   }
 }
-/*! CSS Used from: Embedded */
-.css-12gbfwr {
+
+.ellipse {
   position: absolute;
   top: 25vh;
   left: 20vw;
   z-index: -1;
 }
-/*! CSS Used from: Embedded */
-.css-13800us {
+
+.footer {
   margin-top: 150px;
 }
-/*! CSS Used from: Embedded */
-.css-c3xte6 {
+
+.adorno__3 {
   position: absolute;
   right: 0;
   height: 35%;
@@ -509,122 +384,30 @@
   z-index: -1;
   opacity: 0.3;
 }
-@media screen and (min-width: 750px) {
-  .css-c3xte6 {
+@media screen and (min-width: 1050px) {
+  .adorno__3 {
     height: 50%;
     opacity: 1;
   }
 }
-/*! CSS Used from: Embedded */
-.css-kpvk15 {
+
+.footer__p {
   color: #232129;
   margin: 0;
   margin-top: 16px;
   margin-bottom: 8px;
   color: #635e69;
 }
-/*! CSS Used from: Embedded */
-.css-eh4yjp {
-  border-top: none;
-  border-color: #efefef;
+
+.footer__sign {
   list-style: none;
-  padding: 0;
-  margin-top: 16px;
+  padding-top: 20px;
+  margin-top: 32px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  margin-top: 32px;
-}
-@media screen and (min-width: 750px) {
-  .css-eh4yjp {
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-  }
-}
-.css-eh4yjp * + * {
-  margin-left: 0;
-  margin-top: 8px;
-}
-@media screen and (min-width: 750px) {
-  .css-eh4yjp * + * {
-    margin-left: 16px;
-    margin-top: 0;
-  }
-}
-/*! CSS Used from: Embedded */
-.css-1cu8fls {
-  border-bottom: none;
-  border-color: #ddd;
-  padding: 0;
-  margin-top: 8px;
-  color: #232129;
-  margin-top: 0;
-}
-.css-1cu8fls:hover {
-  background-color: transparent;
-  cursor: primary;
-}
-/*! CSS Used from: Embedded */
-.css-1kt8mct {
-  color: rebeccapurple;
-  display: grid;
-  grid-template-columns: 20px auto;
-  grid-gap: 8px;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  white-space: nowrap;
-  height: 48px;
-}
-@media screen and (min-width: 750px) {
-  .css-1kt8mct {
-    grid-template-columns: auto auto;
-    height: inherit;
-  }
-}
-/*! CSS Used fontfaces */
-@font-face {
-  font-family: Futura PT;
-  font-display: swap;
-  src: url(https://themejam.gatsbyjs.org/static/ftn45-webfont-c2439033a37a428d148b673062131f47.woff2)
-      format("woff2"),
-    url(https://themejam.gatsbyjs.org/static/ftn45-webfont-2b95f947aed524d9309c78cc9c9c7528.woff)
-      format("woff"),
-    url(https://themejam.gatsbyjs.org/static/ftn45-webfont-d997e84e92366d98a8e00c4cc2731cfe.ttf)
-      format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: Futura PT;
-  font-display: swap;
-  src: url(https://themejam.gatsbyjs.org/static/ftn65-webfont-0ddc10d20bd3c3e162e4ea9b49c82856.woff2)
-      format("woff2"),
-    url(https://themejam.gatsbyjs.org/static/ftn65-webfont-d40bda222a86b1160230720097056b18.woff)
-      format("woff"),
-    url(https://themejam.gatsbyjs.org/static/ftn65-webfont-b9e7a71256335f15df8f2734393ee767.ttf)
-      format("truetype");
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: Futura PT;
-  font-display: swap;
-  src: url(https://themejam.gatsbyjs.org/static/ftn85-webfont-8723b7c6d2438ea9aaa9337f9e86876f.eot);
-  src: url(https://themejam.gatsbyjs.org/static/ftn85-webfont-8723b7c6d2438ea9aaa9337f9e86876f.eot#iefix)
-      format("embedded-opentype"),
-    url(https://themejam.gatsbyjs.org/static/ftn85-webfont-6ad5290a317be4dc9031cd1e82fc080b.woff2)
-      format("woff2"),
-    url(https://themejam.gatsbyjs.org/static/ftn85-webfont-6750568fc344deab1d90d6a1baf9d3f4.woff)
-      format("woff"),
-    url(https://themejam.gatsbyjs.org/static/ftn85-webfont-248f6063b34fdba35a56b2f49a1687b9.ttf)
-      format("truetype");
-  font-weight: 800;
-  font-style: normal;
+  justify-content: center;
+  margin-top: 32px;
 }
