@@ -66,25 +66,8 @@
   -ms-flex-align: center;
   align-items: center;
   margin: 0 auto;
-  width: 360px;
-}
-
-.hero__img {
-  height: 100%;
-  left: 0px;
-  object-fit: cover;
-  object-position: center center;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  transition: opacity 500ms ease 0s;
-  width: 100%;
-}
-
-@media screen and (min-width: 350px) {
-  .hero__img {
-    height: 60%;
-  }
+  width: 22.5rem;
+  height: 15.625rem;
 }
 
 h1 {
@@ -98,13 +81,12 @@ h1 {
 }
 
 .p__principal {
-  color: #232129;
   margin: 0;
   margin-top: 16px;
   text-align: center;
   display: block;
-  color: #635e69;
-  font-size: 22px;
+  color: #635E69;
+  font-size: 20px;
 }
 
 .arrow__down {
@@ -116,8 +98,8 @@ h1 {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .question__wrapper {
@@ -397,6 +379,7 @@ h1 {
   margin-top: 16px;
   margin-bottom: 8px;
   color: #635e69;
+  text-align: center;
 }
 
 .footer__sign {

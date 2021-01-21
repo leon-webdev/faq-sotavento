@@ -1,9 +1,35 @@
 import React from 'react'
+import Image from 'gatsby-image'
+import { useStaticQuery, graphql } from "gatsby"
+
+const data = graphql`
+    {
+      file(relativePath: {eq: "adorno2.png"}) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `
 
 const Adornos = () => {
+
+    const {
+        file: {
+          childImageSharp: { fluid },
+        },
+      } = useStaticQuery(data)
+
     return (
         <>
-            <img
+            <div>
+                <Image fluid={fluid} className="adorno__2"/>
+            </div>
+            
+
+            {/* <img
                 alt="Orange and purple patterned design"
                 src="./assets/adorno2.png"
                 className="adorno__2"
@@ -19,11 +45,9 @@ const Adornos = () => {
                 alt="Magenta and blue patterned design"
                 src="./assets/adorno3.png"
                 className="adorno__3"
-            />
+            /> */}
             
-            <svg height="40" width="40" className="ellipse">
-                <ellipse cx="10" cy="10" rx="10" ry="10" fill="#FFE4A1"></ellipse>
-            </svg>
+            
         </>
     )
 }

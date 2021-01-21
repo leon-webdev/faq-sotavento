@@ -1,21 +1,19 @@
 import React from 'react'
+import Imagen from './Imagen'
 
-function Hero() {
-    return (
+const Hero = () => {
+
+      return (
         <>
           <div className="wrapper__img">
             <figure>
               <div
                 style={{position: "relative", overflow: "hidden"}}
               >
-                <div style={{width: "100%", paddingBottom: "50%"}}></div>
+                <div style={{width: "100%"}}></div>
+                
+                 <Imagen alt="Logo de sotavento arena" imgsrc="Sotavento.png" />
 
-                <img
-                  sizes="(max-width: 540px) 100vw, 540px"
-                  alt="Logo de sotavento arena"
-                  src="/assets/Sotavento.png"
-                  className="hero__img"
-                />
               </div>
             </figure>
           </div>
@@ -45,6 +43,9 @@ function Hero() {
               ></path>
             </svg>
           </div>  
+          <svg height="40" width="40" className="ellipse">
+                <ellipse cx="10" cy="10" rx="10" ry="10" fill="#FFE4A1"></ellipse>
+          </svg>
         </>
     )
 }
