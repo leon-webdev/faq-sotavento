@@ -24,10 +24,10 @@ const Questions = () => {
           <div id="pregunta1" className="answer__1">
             <div>
               <h2 className="answer__h2">
-                ¿Pregunta 1?
+                ¿Hay apartamento modelo?
               </h2>
 
-              <p className="answer__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nihil laboriosam, porro facere dolorum non quae aspernatur odio harum qui!</p>
+              <p className="answer__p">Hasta la fecha aun no se cuenta con apartamento modelo.</p>
               <Link className="top__arrow" to="#preguntas">▲</Link>
             </div>
           </div>
