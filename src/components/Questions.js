@@ -7,7 +7,7 @@ const Questions = () => {
             <ul id="preguntas" className="question__wrapper">
             <li className="question">
               ↳
-              <Link to="#pregunta1">¿Pregunta 1?</Link>
+              <Link to="#pregunta1">¿Hay apartamento modelo?</Link>
             </li>
 
             <li className="question">
