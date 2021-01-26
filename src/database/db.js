@@ -20,7 +20,7 @@ export default [
   {
     id: 4,
     question: "¿Cuales son los subsidios que aplican al proyecto?",
-    answer: "Subsidio de la caja de compensacion, Mi casa ya, subsidio fresh.",
+    answer: "Subsidio de la caja de compensacion, Mi Casa Ya, subsidio Frech.",
     clase: 1
   },
   {
@@ -35,11 +35,89 @@ export default [
     answer: "Estar afiliado a una caja de compensación, tener conformado un hogar unifamiliar o de varios miembros, el ingreso no debe superar los 4 SMMLV, no tener propiedades a su nombre, no haber recibido ningun otro subsidio de vivienda por parte de la caja de compensación, la vivienda debe pertenecer al programa de Vivienda de Interés Social (VIS), entre otros requisitos individuales de caja organismo.",
     clase: 3
   },
+  {
+  id: 7,
+  question: "¿Cuales son los detalles del subsidio Mi Casa Ya?",
+  answer: "Tener ingresos totales menores a 8 SMMLV, No ser propietarios de una vivienda en el territorio nacional, No haber sido beneficiarios de un subsidio otorgado por el Gobierno Nacional que haya sido efectivamente aplicado, Contar con un crédito aprobado para la adquisición de una solución de vivienda.",
+  clase: 1
+},
+{
+  id: 8,
+  question: "¿Cuales son los detalles del subsidio Frech?",
+  answer: "Este subsidio cubre un porcentaje de la tasa de interés pactada para el crédito de vivienda. En ese caso sería 5% de cobertura para vivienda de interés prioritario VIP y 4% para Vivienda de Interés Social VIS.",
+  clase: 2
+},
+{
+  id: 9,
+  question: "¿Se entregarán todas las zonas sociales desde el principio?",
+  answer: "No, se entregaran por parte a medida que se vayan entregando las diferentes etapas del macroproyecto.",
+  clase: 3
+},
+{
+  id: 10,
+  question: "¿El parqueadero será privado o comunal?",
+  answer: "El parqueadero será COMUNAL",
+  clase: 1
+},
+{
+  id: 11,
+  question: "¿Cuando comienzan las obras?",
+  answer: "Segun lo informado por la constructora, las obras comienzan en el primer trimestre del año 2021",
+  clase: 2
+},
+{
+  id: 12,
+  question: "¿Hay partes sin pavimento en Caribe Verde?",
+  answer: "Toda la entrada y zonas principales estan pavimentadas.",
+  clase: 3
+},
+{
+  id: 13,
+  question: "¿En cuanto queda la cuota del credito hipotecario con el banco?",
+  answer: "El monto puede variar por muchos aspectos: Entidad bancaria, cantidad de años (15, 20, 30), monto final del credito, etc. En nuestro grupo hay un estimado entre 250.000 y 550.000 pesos mensuales.",
+  clase: 1
+},
+{
+  id: 14,
+  question: "¿Cuanto será el valor de la administración?",
+  answer: "Aún no se tiene un monto estipulado, se estima que entre 60.000 y 80.000 pesos.",
+  clase: 2
+},
+{
+  id: 15,
+  question: "¿En que momento se comienza a pagar el credito hipotecario?",
+  answer: "Luego de firmar las escrituras y que el banco desembolse el dinero a la constructora.",
+  clase: 3
+},
+{
+  id: 16,
+  question: "¿En que estado son entregados los apartamentos?",
+  answer: "Serán entregados en OBRA GRIS.",
+  clase: 1
+},
+{
+  id: 17,
+  question: "¿Las zona social de cada torre la entregan en obra gris o enchapado??",
+  answer: "Los antecedentes de la constructora indican que esas areas las entregan con acabados sencillos.",
+  clase: 2
+},
+{
+  id: 18,
+  question: "¿La constructora ofrece algun paquete de acabados?",
+  answer: "Hasta los momentos la constructora no nos ha ofrecido nada con relación a los acabados.",
+  clase: 3
+},
+{
+  id: 19,
+  question: "¿Que estrato es el proyecto?",
+  answer: "Nos indicaron que estrato 2 con posibilidades de convertirse en 3.",
+  clase: 1
+},
 ]
 
 // {
 //   id: 6,
-//   question: "",
+//   question: "¿?",
 //   answer: "",
-//   clase: ""
+//   clase: 
 // },
