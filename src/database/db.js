@@ -80,7 +80,7 @@ export default [
   {
     id: 14,
     question: "¿Cuanto será el valor de la administración?",
-    answer: "Aún no se tiene un monto estipulado, se estima que entre 60.000 y 80.000 pesos.",
+    answer: "El valor será entre 1.600 y 1.800 pesos por mts2. Es decir, entre 80.000 y 90.000 pesos mensuales.",
     clase: 2
   },
   {
