@@ -121,6 +121,10 @@ h1 {
   color: #232129;
 }
 
+.question a {
+  text-decoration: none;
+}
+
 .question:focus-within,
 .question:hover {
   background-color: transparent;

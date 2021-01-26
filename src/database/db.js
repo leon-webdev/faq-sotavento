@@ -7,8 +7,8 @@ export default [
   },
   {
     id: 2,
-    question: "¿Se puede construir un balcon despues de adquirir el apartamento?",
-    answer: "No, la fachada del conjunto residencial no se puede modificar.",
+    question: "¿Dónde quedara ubicado Sotavento?",
+    answer: "Sotavento quedara ubicado en el boulevard de caribe verde.",
     clase: 2
   },
   {
@@ -112,6 +112,54 @@ export default [
   question: "¿Que estrato es el proyecto?",
   answer: "Nos indicaron que estrato 2 con posibilidades de convertirse en 3.",
   clase: 1
+},
+{
+  id: 20,
+  question: "¿Se puede construir un balcon despues de adquirir el apartamento?",
+  answer: "No, la fachada del conjunto residencial no se puede modificar.",
+  clase: 2
+},
+{
+  id: 21,
+  question: "¿El club de sotavento será de uso exclusivo de los propietarios?",
+  answer: "Si, el club residencial es de uso exclusivo de los propietarios y no tendrá costo adicional al menos que se quiera hacer parte de actividades extracurriculares como Yoga, natación entre otras que si tendrán un costo adicional.",
+  clase: 3
+},
+{
+  id: 22,
+  question: "¿Se puede quitar la pared de la cocina del apartamento de 50mt2?",
+  answer: "No, ya que hace parte de los cimientos del edificio.",
+  clase: 1
+},
+{
+  id: 23,
+  question: "¿Los edificios cuentan con ascensor?",
+  answer: "No, los ascensores son obligatorios solo para edificaciones mayores a 5 pisos.",
+  clase: 2
+},
+{
+  id: 24,
+  question: "¿Cuántas entradas tendrá el club residencial Sotavento?",
+  answer: "Una sola entrada, que servirá de punto de seguridad inicial para permitir el paso a los conjuntos internos ya que cada conjunto contará con una portería acorde a los renders ofrecidos por la constructora. ",
+  clase: 3
+},
+{
+  id: 25,
+  question: "¿Cómo se llama el 3er proyecto?",
+  answer: "Hasta la fecha no se conoce el nombre.",
+  clase: 1 
+},
+{
+  id: 26,
+  question: "¿Sera una sola administración o cada conjunto de sotavento tendrá una?",
+  answer: "Se cree que será una sola administración, todo el tema de administración se solucionara cuando los propietarios logren ocupar su apartamento, reunirse y conformen la asamblea general propietarios.",
+  clase: 2
+},
+{
+  id: 27,
+  question: "¿Cuáles son los proyectos residenciales más cercanos a Sotavento?",
+  answer: "Conjunto Residencial Caribe Plaza, Conjunto Residencial Brisas del Caribe, Conjunto Residencial Altos de Caribe Verde, Encanto Caribe - próximamente",
+  clase: 3
 },
 ]
 
