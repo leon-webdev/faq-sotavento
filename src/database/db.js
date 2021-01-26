@@ -7,8 +7,8 @@ export default [
     },
     {
       id: 2,
-      question: "¿Se puede construir un balcón después de adquirir el apartamento?",
-      answer: "No, la fachada del conjunto residencial no se puede modificar.",
+      question: "¿Dónde quedara ubicado Sotavento?",
+      answer: "Sotavento quedara ubicado en el boulevard de caribe verde.",
       clase: 2
     },
     {
@@ -72,17 +72,10 @@ export default [
     clase: 3
   },
   {
-<<<<<<< HEAD
-    id: 2,
-    question: "¿Dónde quedara ubicado Sotavento?",
-    answer: "Sotavento quedara ubicado en el boulevard de caribe verde.",
-    clase: 2
-=======
     id: 13,
     question: "¿En cuanto queda la cuota del crédito hipotecario con el banco?",
     answer: "El monto puede variar por muchos aspectos: Entidad bancaria, cantidad de años (15, 20, 30), monto final del crédito, etc. En nuestro grupo hay un estimado entre 250.000 y 550.000 pesos mensuales.",
     clase: 1
->>>>>>> 7049b22c31b1e2663b84a0b9b17f8b243459cd20
   },
   {
     id: 14,
@@ -109,7 +102,6 @@ export default [
     clase: 2
   },
   {
-<<<<<<< HEAD
   id: 7,
   question: "¿Cuales son los detalles del subsidio Mi Casa Ya?",
   answer: "Tener ingresos totales menores a 8 SMMLV, No ser propietarios de una vivienda en el territorio nacional, No haber sido beneficiarios de un subsidio otorgado por el Gobierno Nacional que haya sido efectivamente aplicado, Contar con un crédito aprobado para la adquisición de una solución de vivienda.",
