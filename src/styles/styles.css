@@ -5,6 +5,10 @@ body {
   background-color: #ffffff;
 }
 
+a {
+  text-decoration: none;
+}
+
 .wrapper {
   min-width: 0;
   min-height: 100vh;
