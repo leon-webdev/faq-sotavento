@@ -21,19 +21,12 @@ const Imagen = function (props) {
 
       render={data => {
         return (
-          <Image alt={props.alt} className={props.class} fluid={data.allImageSharp.edges.find((element) => {
+          <Image alt={props.alt} className={props.clase} fluid={data.allImageSharp.edges.find((element) => {
             // Match string after final slash
             return (element.node.fluid.src.split('/').pop() === props.imgsrc);
           }).node.fluid} />
         )
       }}
-
-    //   render={data => {
-    //     const image = data.images.edges.find(
-    //       image => image.node.relativePath === "knight.jpg"
-    //     )
-    //     return renderImage(image)
-    //   }}
     />
   )
 }

@@ -1,5 +1,11 @@
-.wrapper {
+body {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.wrapper {
   min-width: 0;
   min-height: 100vh;
   display: -webkit-box;
@@ -17,7 +23,6 @@
 }
 
 .header {
-  box-sizing: border-box;
   min-width: 0;
   background-color: #fff;
   font-weight: 700;
@@ -39,7 +44,6 @@
 }
 
 .main {
-  box-sizing: border-box;
   min-width: 0;
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
@@ -50,7 +54,6 @@
 }
 
 .submain {
-  box-sizing: border-box;
   min-width: 0;
   width: 100%;
   min-width: 0;
@@ -127,10 +130,10 @@ h1 {
 .answer__1 {
   position: relative;
   min-height: 100px;
-  margin-top: 128px;
-  margin-bottom: 128px;
-  padding: 32px;
-  background-color: #fcfaff;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 28px;
+  background-color: #f3eefc;
 }
 
 @media screen and (min-width: 750px) {
@@ -188,7 +191,7 @@ h1 {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 16px;
 }
 
 .answer__h2 {
@@ -205,10 +208,10 @@ h1 {
 .answer__2 {
   position: relative;
   min-height: 100px;
-  margin-top: 128px;
-  margin-bottom: 128px;
-  padding: 32px;
-  background-color: #fffcf7;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 28px;
+  background-color: #fff5e3;
 }
 
 @media screen and (min-width: 750px) {
@@ -220,7 +223,7 @@ h1 {
 .answer__2::before {
   background-image: linear-gradient(
     -45deg,
-    #ffd280 16.67%,
+    #f1be5d 16.67%,
     #ffffff 16.67%,
     #ffffff 50%,
     #ffd280 50%,
@@ -260,10 +263,10 @@ h1 {
 .answer__3 {
   position: relative;
   min-height: 100px;
-  margin-top: 128px;
-  margin-bottom: 128px;
-  padding: 32px;
-  background-color: #f5fcff;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 28px;
+  background-color: #e2f5fd;
 }
 
 @media screen and (min-width: 750px) {
@@ -275,7 +278,7 @@ h1 {
 .answer__3::before {
   background-image: linear-gradient(
     45deg,
-    #90cdf9 16.67%,
+    #90cdf9 20.67%,
     #ffffff 16.67%,
     #ffffff 50%,
     #90cdf9 50%,
@@ -322,7 +325,7 @@ h1 {
   opacity: 0.3;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 825px) {
   .adorno__2 {
     left: 0;
     height: 50%;

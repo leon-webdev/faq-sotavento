@@ -12,7 +12,7 @@ const Hero = () => {
               >
                 <div style={{width: "100%"}}></div>
                 
-                 <Imagen alt="Logo de sotavento arena" imgsrc="Sotavento.png" />
+                 <Imagen alt="Logo de sotavento arena" imgsrc="Sotavento.png" clase=""/>
 
               </div>
             </figure>
