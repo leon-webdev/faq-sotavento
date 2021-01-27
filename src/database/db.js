@@ -1,8 +1,8 @@
 export default [
 {
   id: 1,
-  question: "¿Hay apartamento modelo?",
-  answer: "Hasta la fecha aun no se cuenta con apartamento modelo.",
+  question: "¿Hay apartamento modelo?",
+  answer: "Hasta la fecha aun no se cuenta con apartamento modelo.",
   clase: 1,
 },
 {
@@ -13,7 +13,7 @@ export default [
 },
 {
   id: 3,
-  question:"¿El conjunto viene con linea 220v?",
+  question:"¿El conjunto viene con linea 220v?",
   answer:"Sí, la acometida de 220V llega a la caja de tacos, de allí se distribuye la red domestica 110V.",
   clase: 3,
 },
@@ -81,7 +81,7 @@ export default [
   },
   {
     id: 14,
-    question: "¿Cuanto será el valor de la administración?",
+    question: "¿Cuanto será el valor de la administración?",
     answer:
       "El valor será entre 1.600 y 1.800 pesos por mts2. Es decir, entre 80.000 y 90.000 pesos mensuales.",
     clase: 2,
