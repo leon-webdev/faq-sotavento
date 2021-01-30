@@ -8,9 +8,11 @@ module.exports = {
   siteMetadata: {
     title: 'FAQ Sotavento arena - vento',
     description: 'Este sitio web es de uso exclusivo de los futuros propietarios del megaproyecto sotavento arena - vento. la informacion suministrada acá ha sido recopilada por los miembros del grupo.',
-    author: '@kalel_1987',
-    twitterUsername: '@kalel_1987',
+    author: '@leon_webdev',
+    keywords: 'sotavento, arena, vento, barranquilla, caribe verde, atlantico, colombia, constructora bolivar, VIS, subsidio, mi casa ya, caja de compensacion',
+    twitterUsername: '@leon_webdev',
     // image: '/twitter-img.png',
+    copyright: 'Copyright © 2021',
     siteUrl: 'https://faq-sotavento.netlify.app',
   },
   plugins: [
@@ -32,6 +34,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-preact`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

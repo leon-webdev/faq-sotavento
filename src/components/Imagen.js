@@ -21,7 +21,7 @@ const Imagen = function (props) {
 
       render={data => {
         return (
-          <Image alt={props.alt} className={props.clase} fluid={data.allImageSharp.edges.find((element) => {
+          <Image durationFadeIn={250} alt={props.alt} className={props.clase} fluid={data.allImageSharp.edges.find((element) => {
             // Match string after final slash
             return (element.node.fluid.src.split('/').pop() === props.imgsrc);
           }).node.fluid} />
