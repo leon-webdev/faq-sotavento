@@ -1,14 +1,15 @@
-import React from 'react'
+import React from "react"
+import { Link } from "gatsby"
 
 const Header = () => {
   return (
     <>
       <header className="header">
-        <a href="/">
+        <Link to="/">
           <div>
             <span>FAQ Sotavento Arena - Vento</span>
           </div>
-        </a>
+        </Link>
       </header>
     </>
   )

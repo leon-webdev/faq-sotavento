@@ -1,56 +1,65 @@
-export default [
-{
-  id: 1,
-  question: "¿Hay apartamento modelo?",
-  answer: "Hasta la fecha aun no se cuenta con apartamento modelo.",
-  clase: 1,
-},
-{
-  id: 2,
-  question: "¿Dónde quedará ubicado Sotavento?",
-  answer: "Sotavento quedará ubicado en el boulevard de caribe verde. En el occidente de Barranquilla.",
-  clase: 2,
-},
-{
-  id: 3,
-  question:"¿El conjunto viene con linea 220v?",
-  answer:"Sí, la acometida de 220V llega a la caja de tacos, de allí se distribuye la red domestica 110V.",
-  clase: 3,
-},
-{
-  id: 4,
-  question: "¿Cuales son los subsidios que aplican al proyecto?",
-  answer: "Subsidio de la caja de compensación, Mi Casa Ya, subsidio Frech a la cuota mensual del crédito hipotecario",
-  clase: 1,
-},
-{
-  id: 5,
-  question: "¿Que son los subsidios de concurrencia?",
-  answer: "Son aquellos que le permiten a las familias juntar las ayudas del programa Mi Casa Ya y de las cajas de compensación familiar para poder comprar vivienda. Estas ayudas están dirigidas a aquellos colombianos que reciban menos de dos salarios mínimos, es decir $1,8 millones de pesos, podrán recibir hasta 50 SMMLV, cifra que equivale a $45,4 millones de pesos para la compra de su vivienda. Ademas los que apliquen a este subsidio tambíen podrán recibir cinco puntos porcentuales en la tasa del crédito hipotecario.",
-  clase: 2,
-},
-{
-  id: 6,
-  question: "¿Cuales son los detalles del subsidio de la caja de compensación?",
-  answer: "Estar afiliado a una caja de compensación, tener conformado un hogar unifamiliar o de varios miembros, el ingreso no debe superar los 4 SMMLV, no tener propiedades a su nombre, no haber recibido ningún otro subsidio de vivienda por parte de la caja de compensación, la vivienda debe pertenecer al programa de Vivienda de Interés Social (VIS), entre otros requisitos individuales de caja organismo.",
-  clase: 3,
-},
+const db = [
+  {
+    id: 1,
+    question: "¿Hay apartamento modelo?",
+    answer: "Hasta la fecha aun no se cuenta con apartamento modelo.",
+    clase: 1,
+  },
+  {
+    id: 2,
+    question: "¿Dónde quedará ubicado Sotavento?",
+    answer:
+      "Sotavento quedará ubicado en el boulevard de caribe verde. En el occidente de Barranquilla.",
+    clase: 2,
+  },
+  {
+    id: 3,
+    question: "¿El conjunto viene con linea 220v?",
+    answer:
+      "Sí, la acometida de 220V llega a la caja de tacos, de allí se distribuye la red domestica 110V.",
+    clase: 3,
+  },
+  {
+    id: 4,
+    question: "¿Cuales son los subsidios que aplican al proyecto?",
+    answer:
+      "Subsidio de la caja de compensación, Mi Casa Ya, subsidio Frech a la cuota mensual del crédito hipotecario",
+    clase: 1,
+  },
+  {
+    id: 5,
+    question: "¿Que son los subsidios de concurrencia?",
+    answer:
+      "Son aquellos que le permiten a las familias juntar las ayudas del programa Mi Casa Ya y de las cajas de compensación familiar para poder comprar vivienda. Estas ayudas están dirigidas a aquellos colombianos que reciban menos de dos salarios mínimos, es decir $1,8 millones de pesos, podrán recibir hasta 50 SMMLV, cifra que equivale a $45,4 millones de pesos para la compra de su vivienda. Ademas los que apliquen a este subsidio tambíen podrán recibir cinco puntos porcentuales en la tasa del crédito hipotecario.",
+    clase: 2,
+  },
+  {
+    id: 6,
+    question:
+      "¿Cuales son los detalles del subsidio de la caja de compensación?",
+    answer:
+      "Estar afiliado a una caja de compensación, tener conformado un hogar unifamiliar o de varios miembros, el ingreso no debe superar los 4 SMMLV, no tener propiedades a su nombre, no haber recibido ningún otro subsidio de vivienda por parte de la caja de compensación, la vivienda debe pertenecer al programa de Vivienda de Interés Social (VIS), entre otros requisitos individuales de caja organismo.",
+    clase: 3,
+  },
   {
     id: 7,
     question: "¿Cuales son los detalles del subsidio Mi Casa Ya?",
-    answer: "Tener ingresos totales menores a 8 SMMLV, No ser propietarios de una vivienda en el territorio nacional, No haber sido beneficiarios de un subsidio otorgado por el Gobierno Nacional que haya sido efectivamente aplicado, Contar con un crédito aprobado para la adquisición de una solución de vivienda.",
+    answer:
+      "Tener ingresos totales menores a 8 SMMLV, No ser propietarios de una vivienda en el territorio nacional, No haber sido beneficiarios de un subsidio otorgado por el Gobierno Nacional que haya sido efectivamente aplicado, Contar con un crédito aprobado para la adquisición de una solución de vivienda.",
     clase: 1,
   },
   {
     id: 8,
     question: "¿Cuales son los detalles del subsidio Frech?",
-    answer: "Este subsidio cubre un porcentaje de la tasa de interés pactada para el crédito de vivienda. En ese caso sería 5% de cobertura para vivienda de interés prioritario VIP y 4% para Vivienda de Interés Social VIS.",
+    answer:
+      "Este subsidio cubre un porcentaje de la tasa de interés pactada para el crédito de vivienda. En ese caso sería 5% de cobertura para vivienda de interés prioritario VIP y 4% para Vivienda de Interés Social VIS.",
     clase: 2,
   },
   {
     id: 9,
     question: "¿Se entregarán todas las zonas sociales desde el principio?",
-    answer: "No, se entregaran por parte a medida que se vayan entregando las diferentes etapas del macroproyecto.",
+    answer:
+      "No, se entregaran por parte a medida que se vayan entregando las diferentes etapas del macroproyecto.",
     clase: 3,
   },
   {
@@ -180,9 +189,5 @@ export default [
     clase: 3,
   },
 ]
-// {
-//   id: 6,
-//   question: "¿?",
-//   answer: "",
-//   clase:
-// },
+
+export default db
